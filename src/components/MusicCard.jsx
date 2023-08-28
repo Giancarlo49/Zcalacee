@@ -7,16 +7,59 @@ const MusicCard = () => {
   return (
     <div className="music">
       <div className="card-container">
-        <div className="card">
-          <h3>Zcalacee - Belalim 2023</h3>
+        <div className="card belalim">
+          <h3>Zcalacee</h3>
           <span className="bar"></span>
-          <img src="../src/images/belalim.jpg" />
-          <Link
-            to="https://open.spotify.com/intl-de/track/7vOXTKAUtEtjbj0QZbojHA"
+          <p className="artist">Zcalacee feat. Ziya</p>
+          <p>Belalim 2023</p>
+
+          <p></p>
+          <p></p>
+
+          <a
+            href="https://open.spotify.com/intl-de/track/7vOXTKAUtEtjbj0QZbojHA"
+            target="_blank"
+            rel="noopener noreferrer"
             className="btn"
           >
             PLAY
-          </Link>
+          </a>
+        </div>
+        <div className="card galerie">
+          <h3>Zcalacee</h3>
+          <span className="bar"></span>
+          <p className="artist">Zcalacee feat. Momo</p>
+          <p>Galerie</p>
+
+          <p></p>
+          <p></p>
+
+          <a
+            href="https://open.spotify.com/intl-de/track/3MO40EQ3yCWS5gSQNLxmDk"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn"
+          >
+            PLAY
+          </a>
+        </div>
+        <div className="card poladior">
+          <h3>Zcalacee</h3>
+          <span className="bar"></span>
+          <p className="artist">Zcalacee</p>
+          <p>Poladior</p>
+
+          <p></p>
+          <p></p>
+
+          <a
+            href="https://open.spotify.com/intl-de/album/3b8YjBSZyievZdIIU3rgG6"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn"
+          >
+            PLAY
+          </a>
         </div>
       </div>
     </div>

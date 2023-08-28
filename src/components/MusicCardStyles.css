@@ -1,0 +1,78 @@
+.music {
+  width: 100%;
+  padding: 6rem 1rem;
+  /* background: #000; */
+}
+
+.card-container {
+  max-width: 1140px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px;
+}
+
+.card {
+  border: 1px solid #eee;
+  color: #f80707;
+  text-align: center;
+  padding: 1rem;
+}
+
+.belalim {
+  background-image: url("../images/belalim.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.galerie {
+  background-image: url("../images/galerie.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.poladior {
+  background-image: url("../images/poladior.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.galerie:hover {
+  card-color: #141414;
+}
+
+.card h3 {
+  fonst-size: 1.4rem;
+  padding: 1rem;
+}
+.card p {
+  padding: 10px 0;
+  color: #f80707;
+}
+.bar {
+  border-bottom: 1px solid #eee;
+  width: 10%;
+  margin: 1.5rem auto;
+  display: block;
+}
+
+.artist {
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 1rem 0;
+}
+
+.btn {
+  display: block;
+  width: 80%;
+  margin: 2rem auto;
+}
+
+@media screen and (max-width: 740px) {
+  .card-container {
+    max-width: 90%;
+    margin: auto;
+
+    grid-template-columns: 1fr;
+  }
+}
